@@ -1,0 +1,161 @@
+menu *{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol,li{
+    list-style: none;
+}
+body{
+    font-family: "Quicksand", sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+header{
+    background-color: #fefefe;
+    position: relative;
+    width: 100vw;
+    height: 129px;
+}
+#logo{
+    width: 193px;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: 100px;
+    /*/Aumanetando a altura do header*/
+    padding: 5px;
+}
+header nav a{
+    font-weight: bold;
+    font-size: 11px;
+    color: #211b15;
+    padding: 85px;
+    /*ficar devagar ao passar o mouse*/
+    transition: background-color 1s;
+    margin-right: 20px;
+}
+
+
+
+/*Esse comando serve para remover o espacamento apos a ultima secao do menu*/
+header nav a:last-child{
+    margin-right: 0;
+}
+/*quando passar por cima do mouse*/
+header nav a:hover{
+    color: white;
+    background-color: #E9DEF2;
+}
+
+main {
+    padding: 20px;
+}
+div{
+    background-color: #E9DEF2;
+    border-radius: 10px;
+    align-items: center;
+    padding: 3px;
+    height: 45vw;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 70px;
+    margin-left: 15px;
+}
+
+
+section {
+    margin-bottom: 20px;
+    background-color: #e2c1f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-left: 70px;
+    margin-right: 60vh;
+}
+
+#mecanica p{
+    font-size: 16px;
+    width: 60vw;
+}
+#mecanica:hover{
+    background-color: #5e2b6b;
+    transition: background-color 1s;
+}
+
+#termologia{
+    margin-top: 20px;
+}
+#termologia p{
+    font-size: 16px;
+    width: 1000px;
+}
+#termologia:hover{
+    background-color: #5e2b6b;
+    transition: background-color 1s;
+}
+
+#optica{
+    margin-top: 20px;
+}
+#optica p{
+    font-size: 16px;
+    width: 1000px;
+}
+#optica:hover{
+    background-color: #5e2b6b;
+    transition: background-color 1s;
+}
+
+#eletro{
+    margin-top: 20px;
+}
+#eletro p{
+    font-size: 16px;
+    width: 1000px;
+}
+#eletro:hover{
+    background-color: #5e2b6b;
+    transition: background-color 1s;
+}
+
+.grupo{
+    height: 10vh;
+    justify-content: center;
+}
+
+section h2 {
+    color: purple;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #d5b1f3;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
