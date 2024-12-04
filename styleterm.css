@@ -72,50 +72,41 @@ section {
     border-radius: 8px;
 }
 
-#mecanica p{
+#termo{
+    width: 100%;
+}
+#termo p{
     font-size: 16px;
     width: 60vw;
 }
-#mecanica:hover{
-    background-color: #ccc;
-    transition: background-color 1s;
-}
 
-#termologia{
+
+#lei1{
     margin-top: 20px;
 }
-#termologia p{
+#lei1 p{
     font-size: 16px;
     width: 1000px;
 }
-#termologia:hover{
-    background-color: #ccc;
-    transition: background-color 1s;
-}
 
-#optica{
+
+#lei2{
     margin-top: 20px;
 }
-#optica p{
+#lei2 p{
     font-size: 16px;
     width: 1000px;
 }
-#optica:hover{
-    background-color: #ccc;
-    transition: background-color 1s;
-}
 
-#eletro{
+
+#lei0{
     margin-top: 20px;
 }
-#eletro p{
-    font-size: 16px;
+#lei0 p{
+    font-size: 14px;
     width: 1000px;
 }
-#eletro:hover{
-    background-color: #ccc;
-    transition: background-color 1s;
-}
+
 
 .grupo{
     height: 10vh;
