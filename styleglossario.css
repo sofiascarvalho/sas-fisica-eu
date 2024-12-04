@@ -65,6 +65,7 @@ div{
     height: 45vw;
 }
 
+
 h1{
     font-size: 60px;
     margin-top: 70px;
@@ -79,16 +80,21 @@ section {
     border-radius: 8px;
     margin-left: 70px;
     margin-right: 60vh;
+    display: flex;
 }
 
 #mecanica p{
     font-size: 16px;
     width: 60vw;
 }
+#mecanica img{
+    width: 5vw;
+}
 #mecanica:hover{
     background-color: #5e2b6b;
     transition: background-color 1s;
 }
+
 
 #termologia{
     margin-top: 20px;
@@ -96,6 +102,9 @@ section {
 #termologia p{
     font-size: 16px;
     width: 1000px;
+}
+#termologia img{
+    width: 5vw;
 }
 #termologia:hover{
     background-color: #5e2b6b;
@@ -109,6 +118,9 @@ section {
     font-size: 16px;
     width: 1000px;
 }
+#optica img{
+    width: 5vw;
+}
 #optica:hover{
     background-color: #5e2b6b;
     transition: background-color 1s;
@@ -120,6 +132,9 @@ section {
 #eletro p{
     font-size: 16px;
     width: 1000px;
+}
+#eletro img{
+    width: 5vw;
 }
 #eletro:hover{
     background-color: #5e2b6b;
