@@ -114,19 +114,32 @@ section h2 {
 
 
 
-
-
-
-
-
-
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #DEACF9;
+    background-color: #d5b1f3;
     color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
+footer a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+footer button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+footer button:hover {
+    background-color: #E9DEF2;
+}
