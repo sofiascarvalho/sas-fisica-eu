@@ -65,57 +65,37 @@ h1{
 
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
     background-color: white;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
 }
 
-#mecanica p{
+#optica p{
     font-size: 16px;
     width: 60vw;
 }
-#mecanica:hover{
-    background-color: #ccc;
-    transition: background-color 1s;
-}
 
-#termologia{
+
+#geometrica{
     margin-top: 20px;
 }
-#termologia p{
+#geometrica p{
     font-size: 16px;
     width: 1000px;
 }
-#termologia:hover{
-    background-color: #ccc;
-    transition: background-color 1s;
-}
 
-#optica{
+
+#fisica{
     margin-top: 20px;
 }
-#optica p{
+#fisica p{
     font-size: 16px;
     width: 1000px;
 }
-#optica:hover{
-    background-color: #ccc;
-    transition: background-color 1s;
-}
 
-#eletro{
-    margin-top: 20px;
-}
-#eletro p{
-    font-size: 16px;
-    width: 1000px;
-}
-#eletro:hover{
-    background-color: #ccc;
-    transition: background-color 1s;
-}
+
 
 .grupo{
     height: 10vh;
