@@ -3,70 +3,344 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styleglossario.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    <title>Glossário</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>+Física</title>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <img id="logo" src="img/fisica logo_preview_rev_1.png" alt="Logo do site +Física">
-                <li><a href="#home">Menu</a></li>
-                <li><a href="#home">Importância</a></li>
-                <li><a href="#home">Dicas de estudo</a></li>
-                <li><a href="#home">Glossário</a></li>
-                <li><a href="#home">Biblioteca</a></li>
-                <li><a href="./feedback.html">Feedback</a></li>
+                <img id="logo" src="img/logo-fisica.png" alt="Logo do site +Física">
+                <li><a href="#pag-inicial">Menu</a></li>
+                <li><a href="#importancia">Importância</a></li>
+                <li><a href="#dicas-de-estudo">Dicas de estudo</a></li>
+                <li><a href="#glosssario">Glossário</a></li>
+                <li><a href="#biblioteca">Biblioteca</a></li>
+                <li><a href="#feedback1">Feedback</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div>
-        <h1>Glossário</h1>
-        <section id="mecanica" class="grupo">
-            <a href="./mecanica.html">Física Mecânica</a>
-            <p>Ela estuda o movimento e o repouso dos corpos 
-                a partir da aplicação ou não de forças sobre eles. 
-                Através do seu estudo, é possível calcularmos a velocidade 
-                dos corpos, o alcance máximo em um lançamento, a aceleração 
-                da gravidade e muitas outras coisas.</p>
-                <img src="./img/importancia-mecanica.webp" alt="importancia-mecanica">
+        <section id="pag-inicial" class="grupo">
+            <div class="container1">
+            <div id="div-retangulo">
+                <div id="retangulo-destaque">
+                    <div id="conteudo-texto">
+                        <h1>O que é a Física?</h1>
+                        <p>A Física é uma ciência natural que estuda os fenômenos e as estruturas fundamentais da natureza, com o objetivo de compreender e descrevê-los por meio de leis gerais.</p>
+                        <b>Conheça mais sobre a física -></b>
+                    </div>
+                    <img id="pag-inicial-img-fisica" src="img/fisica-imagem-pagina-inicial.png" alt="imagem que representa física">
+                </div>
+            </div>
+            <div class="layout-conteudo">
+                <div id="texto-pag-inicial">
+                    <p>No 2º ano do ensino médio, a física cobre temas como eletricidade, ondas e óptica, ajudando os alunos a entender fenômenos do cotidiano e a resolver problemas usando conceitos e fórmulas.</p>
+                </div>
+                <div class="container-pag-inicial">
+                    <div class="nomes-item">
+                        <h3>Galileu Galilei</h3>
+                        <p>Primeiro físico moderno.</p>
+                    </div>
+                    <div class="nomes-item">
+                        <h3>Grécia Antiga</h3>
+                        <p>Onde Surgiu.</p>
+                    </div>
+                    <div class="nomes-item">
+                        <h3>Isaac Newton</h3>
+                        <p>Pai da física clássica.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="imagens-de-baixo">
+                <img id="imagem-de-baixo1" src="./img/logo-senai.jpg" alt="logo do senai">
+                <img id="imagem-de-baixo2" src="./img/logo-sesi.png" alt="logo sesi"> 
+            </div>
         </section>
-        <section id="termologia" class="grupo">
-            <a href="./termologia.html">Termologia</a>
-                <p>Termologia é o estudo científico dos fenômenos relacionados 
-                    ao calor e à temperatura, como transferência de calor, equilíbrio 
-                    térmico, transformações sofridas por gases, mudanças de estado físico, etc.</p>
-                    <img src="./img/930bcc707c798b37b2a651eacc5d1d0f.webp" alt="termo">
-        </section>
-        <section id="optica" class="grupo">
-            <a href="./optica.html">Física Óptica</a>
-                <p>A Óptica é uma área da Física Clássica que investiga a propagação da luz, 
-                    os tipos de meio em que ela pode se propagar, os tipos de fontes que emitem 
-                    luz, fenômenos ópticos – como reflexão, refração, absorção, dispersão, 
-                    interferência e difração.</p>
-                    <img src="./img/reflexao-refracao-transmissao.webp" alt="optica">
-        </section>
-        <section id="eletro" class="grupo">
-            <a href="./eletro.html">Eletromagnetismo</a>
-                <p>Ela estuda o movimento e o repouso dos corpos a partir da aplicação ou não 
-                    de forças sobre eles. Através do seu estudo, é possível calcularmos a 
-                    velocidade dos corpos, o alcance máximo em um lançamento, a aceleração 
-                    da gravidade e muitas outras coisas.</p>
-                    <img src="./img/ondaseletromagneticas-cke.webp" alt="eletro">
-        </section>
-        </section>
+
+        
+        <section id="importancia">
+<!-- Retângulo central -->
+<div class="main2">
+    <div class="retangulo">
+        <h1></h1>
+        <p></p>
+        
+        <!-- Caixa de texto 1 -->
+        <div class="text-box text-box-um">
+            <h2>Entendendo o mundo a nossa volta</h2>
+            <p>
+                Imagine como seria se não entendêssemos a gravidade ou como a luz funciona. A Física nos ajuda a responder perguntas como:
+                Por que o céu é azul?
+                O que mantém os planetas em órbita?
+                Como a eletricidade acende nossas lâmpadas?
+                Essas perguntas e muitas outras são respondidas pela Física, que nos ajuda a ver o mundo com outros olhos.</p>
+            <div class="mundo">
+                <img src="mundo1 (1).png" alt="mundo">
+            </div>
+        </div>
+        
+        <!-- Caixa de texto 2 -->
+        <div class="text-box text-box-dois">
+            <h2>Por que a física é importante?</h2>
+            <p>A Física é a ciência que estuda o mundo natural, explorando desde os átomos invisíveis até as maiores galáxias no universo. Ela ajuda a explicar os fenômenos que acontecem ao nosso redor e responde perguntas sobre como o mundo funciona. Mas por que isso é importante? Conhecer a Física nos ajuda a entender a tecnologia que usamos, a natureza, e até mesmo nosso próprio corpo!</p>
+        </div>
+        
+        <!-- Caixa de texto 3 -->
+        <div class="text-box text-box-tres">
+            <h2>Pensamento Crítico e Raciocinio Lógico</h2>
+            <p>
+                Estudar Física não é só decorar fórmulas; ela exige pensamento lógico, paciência e habilidade para resolver problemas. Essas habilidades são úteis em qualquer área da vida e te ajudam a:
+                Analisar problemas complexos,
+                Encontrar soluções criativas,
+                Pensar de forma mais crítica e objetiva.</p>
+            <div class="mundo">
+                <img src="pensamento.png" alt="pensamento">
+            </div>
+        </div>
+
+        <!-- Caixa de texto 4 -->
+        <div class="text-box text-box-quatro">
+            <h2>Tecnologia e Inovação: A Física Está em Tudo</h2>
+            <p>Desde os nossos celulares até os carros e computadores, a Física está por trás de todas as tecnologias que usamos no dia a dia. Entender a Física é essencial para inventar, melhorar e até resolver problemas que a tecnologia enfrenta. Quem sabe você não descobre uma nova invenção no futuro?</p>
+            <div class="mundo">
+                <img src="tecnologia (1).webp" alt="pensamento">
+            </div>
+        </div>
+
+        <!-- Caixa de texto 5 -->
+        <div class="text-box text-box-cinco">
+            <h2>Física nas profissões: Onde Posso usar esse conhecimento</h2>
+            <p>
+                Estudar Física abre portas para muitas profissões, como:
+                Engenharia
+                Medicina e Saúde
+                Tecnologia e Programação
+                Astronomia
+                Ciências Ambientais
+                Quem sabe você descobre uma paixão e se torna um físico, engenheiro ou até um astronauta?</p>
+            <div class="mundo">
+                <img src="medicina (1).webp" alt="pensamento">
+            </div>
+        </div>
+
+        <!-- Caixa de texto 6 -->
+        <div class="text-box text-box-seis">
+            <h2>Física e o Ambiente: Como Essa Ciência Ajuda o Planeta?</h2>
+            <p>
+                A Física não serve apenas para estudar o espaço ou desenvolver novas tecnologias; ela também tem um papel crucial na compreensão e preservação do meio ambiente. Com a Física, cientistas conseguem:
+                Analisar o comportamento do clima e prever mudanças climáticas,
+                Entender fenômenos naturais, como terremotos, tsunamis e furacões, para minimizar desastres,
+                Criar tecnologias sustentáveis, como painéis solares e turbinas eólicas.
+                Estudar Física é também um caminho para ajudar a proteger o planeta e encontrar soluções para problemas ambientais.</p>
+            <div class="mundo">
+                <img src="clima.png" alt="pensamento">
+            </div>
+        </div>
+
+        <!-- Caixa de texto 7 -->
+        <div class="text-box text-box-sete">
+            <h2>Curiosidades da Física</h2>
+            <p>
+                A Física é cheia de fatos fascinantes que despertam a curiosidade! Aqui vão alguns para deixar os jovens intrigados:
+                A luz demora cerca de 8 minutos para viajar do Sol até a Terra.
+                Um único relâmpago pode iluminar uma cidade inteira por alguns segundos.
+                O tempo passa mais devagar para quem viaja em alta velocidade, o que significa que, tecnicamente, um astronauta envelhece um pouco mais devagar no espaço! Essas curiosidades mostram que a Física é cheia de mistérios e descobertas, tornando o aprendizado ainda mais emocionante.</p>
+        </div>
     </div>
+</div>
+
+
+        </section>
+
+
+        <section id="dicas-de-estudo">
+
+        </section>
+
+        <div class="main1">
+            <section id="glossario">
+                <div class="container-glossario">
+                    <h1>Glossário</h1>
+                    <section id="mecanica" class="grupo1">
+                        <a href="./mecanica.html">
+                            <h2>Física Mecânica</h2>
+                        </a>
+                        <p>Ela estuda o movimento e o repouso dos corpos 
+                            a partir da aplicação ou não de forças sobre eles. 
+                            Através do seu estudo, é possível calcularmos a velocidade 
+                            dos corpos, o alcance máximo em um lançamento, a aceleração 
+                            da gravidade e muitas outras coisas.</p>
+                        <img src="./img/importancia-mecanica.webp" alt="importancia-mecanica">
+                    </section>
+                    <section id="termologia" class="grupo1">
+                        <a href="./termologia.html">
+                            <h2>Termologia</h2>
+                        </a>
+                        <p>Termologia é o estudo científico dos fenômenos relacionados 
+                            ao calor e à temperatura, como transferência de calor, equilíbrio 
+                            térmico, transformações sofridas por gases, mudanças de estado físico, etc.</p>
+                        <img src="./img/930bcc707c798b37b2a651eacc5d1d0f.webp" alt="termo">
+                    </section>
+                    <section id="optica" class="grupo1">
+                        <a href="./optica.html">
+                            <h2>
+                                Física Óptica
+                            </h2>
+                        </a>
+                        <p>A Óptica é uma área da Física Clássica que investiga a propagação da luz, 
+                            os tipos de meio em que ela pode se propagar, os tipos de fontes que emitem 
+                            luz, fenômenos ópticos – como reflexão, refração, absorção, dispersão, 
+                            interferência e difração.</p>
+                        <img src="./img/reflexao-refracao-transmissao.webp" alt="optica">
+                    </section>
+                    <section id="eletro" class="grupo1">
+                        <a href="./eletro.html">
+                            <h2>Eletromagnetismo</h2>
+                        </a>
+                        <p>Ela estuda o movimento e o repouso dos corpos a partir da aplicação ou não 
+                            de forças sobre eles. Através do seu estudo, é possível calcularmos a 
+                            velocidade dos corpos, o alcance máximo em um lançamento, a aceleração 
+                            da gravidade e muitas outras coisas.</p>
+                        <img src="./img/ondaseletromagneticas-cke.webp" alt="eletro">
+                    </section>
+                </div>
+            </section>
+        </div>
+        
+        
+
+        <section id="biblioteca" class="grupo">
+            <div class="biblioteca-container">
+                <h1>Biblioteca de Recursos</h1>
+                <p>Encontre materiais de estudo, atividades e ferramentas de ensino organizados para facilitar o aprendizado e o planejamento de aulas, com conteúdos personalizados para cada necessidade educacional.</p>
+        
+                <div id="retangulo-biblioteca">
+                    <div class="coluna">
+                        <div class="item">
+                            <img src="img/simbolo-mochila.png" alt="Para Alunos">
+                            <p>Para Alunos</p>
+                        </div>
+                        <div class="item professor">
+                            <img src="img/simbolo-professor.png" alt="Para Professores">
+                            <p>Para Professores</p>
+                        </div>
+                    </div>
+                    <div class="coluna">
+                        <h2>Torne Seus Estudos mais Ativos e Envolventes</h2>
+
+                        <div class="recurso">
+                            <img src="img/logo-khan-academy.svg" alt="Logo Khan Academy">
+                            <div class="descricao">
+                                <h3>Khan Academy</h3>
+                                <p>O Khan Academy é uma plataforma online gratuita com cursos e recursos interativos para aprender física, matemática e mais, de forma autônoma.</p>
+                            </div>
+                        </div>
+                        <hr>
+                    
+                        <div class="recurso">
+                            <img src="img/logo-youtube.png" alt="Logo Youtube">
+                            <div class="descricao">
+                                <h3>Minuto da Física</h3>
+                                <p>O canal Minuto da Física no YouTube oferece vídeos curtos e claros sobre conceitos de física. Ideal para quem quer aprender ou revisar temas de maneira rápida e divertida.</p>
+                            </div>
+                        </div>
+                        <hr>
+                    
+                        <div class="recurso">
+                            <img src="img/simbolo-livro.png" alt="Logo livro">
+                            <div class="descricao">
+                                <h3>Fundamentos de Física</h3>
+                                <p>Fundamentos de Física, de David Halliday, apresenta conceitos essenciais de física com explicações claras e exemplos práticos. É um recurso importante para quem busca aprofundar seus conhecimentos na disciplina.</p>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="coluna maior">
+                        <div class="coluna-terceira">
+                            <p>Com esses recursos, você, aluno, tem acesso fácil a materiais didáticos, atividades e ferramentas que facilitam o seu aprendizado.</p>
+                            <img src="img/garota-estudando.png" alt="Garota estudando" class="imagem-ilustrativa">
+                        </div>                                  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nova-biblioteca" class="grupo">
+            <div class="biblioteca-container1">
+                <div id="retangulo-nova-biblioteca">
+                    <div class="coluna1">
+                        <div class="item1">
+                            <img src="img/simbolo-mochila.png" alt="Para Estudantes">
+                            <p>Para Alunos</p>
+                        </div>
+                        <div class="item professor1">
+                            <img src="img/simbolo-professor.png" alt="Para Educadores">
+                            <p>Para Professores</p>
+                        </div>
+                    </div>
+                    <div class="coluna1">
+                        <h2>Torne suas Aulas mais dinamicas e interessantes</h2>
+                        <div class="recurso1">
+                            <img src="img/portal-fisica.png" alt="Logo portal fisica">
+                            <div class="descricao1">
+                                <h3>Portal Física</h3>
+                                <p>O Portal de Física oferece resumos e exercícios sobre diversos temas, do básico ao avançado, sendo ideal para consultas rápidas e apoio ao planejamento de aulas.</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="recurso1">
+                            <img src="img/logo-youtube.png" alt="Logo YouTube">
+                            <div class="descricao1">
+                                <h3>Física Universitária</h3>
+                                <p>Canal com vídeos detalhados para entender conceitos e sugestões didáticas para sala de aula.</p>
+                            </div>
+                        </div>
+                        <div class="recurso1">
+                            <img src="img/prova-facil.png" alt="Logo prova facil">
+                            <div class="descricao1">
+                                <h3>Prova|Fácil</h3>
+                                <p>Oferece simulados e questões de física, ajudando no desenvolvimento de provas e atividades.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="coluna maior1">
+                        <div class="coluna-terceira1">
+                            <p>Com esses recursos, você, professor, tem acesso fácil a materiais didáticos, atividades e ferramentas que facilitam o planejamento e tornam o ensino mais eficiente.</p>
+                            <img src="img/imagem-novo-retangulo.png" alt="professora dando aula" class="imagem-ilustrativa1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        </section>
+
+        <section id="feedback1">
+            <section class="feedback1">
+                <div class="main3">
+                    <div id="feedback">
+                        <h1>Feedback</h1>
+                        <div id="menina-feedback">
+                            <img src="./img/image 2.png" alt="Ilustração menina">
+                        </div>
+                        <p>Deixe sua opinião e nos ajude a melhorar ainda mais sua experiência!</p>
+                        <div id="feedback-form">
+                            <textarea placeholder="Digite aqui o seu feedback..."></textarea>
+                            <button>Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>            
+
+        </section>
+
+
     </main>
     <footer>
         <p>Utilizamos cookies essenciais para proporcionar uma melhor experiência. Ao continuar navegando, você concorda com a nossa <a href="#">Política de Privacidade</a>.</p>
         <button>OK</button>
     </footer>
+    
 </body>
-</html> 
-
-
-
+</html>
